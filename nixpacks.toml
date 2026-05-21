@@ -1,0 +1,12 @@
+[phases.setup]
+nixPkgs = ["python311"]
+
+[phases.install]
+cmds = ["pip install -r requirements.txt"]
+
+[start]
+cmd = "python bot.py"
+
+[metrics]
+port = 8080
+path = "/health"
